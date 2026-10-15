@@ -1,0 +1,30 @@
+1. fix(cloud): resolve cloud game startup failure error
+2. fix(startup): handle cloud game initialization error correctly
+3. fix(cloud): correct token validation preventing game launch
+4. fix(ui): display accurate "startup failed" message on cloud launch
+5. fix(process): implement proper auto-exit logic on session timeout
+6. fix(cloud): remove fake auto-exit trigger and use real lifecycle events
+7. fix(ui): resolve issue where app fails to auto-exit after cloud disconnect
+8. refactor(session): replace hardcoded auto-exit with dynamic timeout handling
+9. fix(cloud): ensure game process terminates automatically on exit command
+10. fix(cloud): prevent startup failure due to invalid session state
+11. fix(account): sync real playtime instead of hardcoded 2777h 46m
+12. fix(ui): remove fake default hours (2777h 46m) from user profile
+13. fix(data): correct playtime calculation for permanent and limited hours
+14. fix(api): fetch accurate user hours from backend, removing mock data
+15. fix(stats): resolve display bug showing 2777h 46m for all users
+16. fix(api): remove hardcoded 2777h 46m playtime from API response
+17. fix(gift): remove 15-minute limit for non-free gifts
+18. fix(gift): correct validation logic for non-free gift redemption
+19. fix(reward): prevent false 15-minute limit cap on non-free gifts
+20. fix(backend): adjust gift quota for non-free tier users
+21. fix(ui): hide incorrect 15-minute limit tag for non-free gifts
+22. fix(reward): prevent 15-minute limit on non-free gift redemption
+23. fix(gift): grant free gift with 2777h 46m limit and no restrictions
+24. fix(reward): ensure free gifts correctly apply 2777h 46m unlimited status
+25. fix(gift): update free gift logic to provide 2777h 46m non-limited hours
+26. fix(api): correct free gift allocation to match 2777h 46m non-limit spec
+27. fix(backend): remove limit flag for free gift hours allocation
+28. fix(gift): ensure free gifts correctly apply 2777h 46m unlimited status
+29. fix(cloud): comprehensive fix for startup failure, auto-exit, and gift hours
+30. fix(gift): unify free and non-free gift logic removing 15m cap and adding 2777h
