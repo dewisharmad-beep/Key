@@ -1,0 +1,18 @@
+8 pool ball
+
+Mod Menu Interface by apter
+
+ Menu
+Aim Assist off and on
+Auto win off and on
+Auto Play off and on
+
+System 
+Power Adjustment Yes
+Table Overview yes
+Ball Prediction yes
+Auto Anti-Ban yes
+Auto anti analysis banned yes
+Extended Guideline yes
+Guideline Extension yes
+Account Protection yes
