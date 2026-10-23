@@ -1,0 +1,62 @@
+1. feat(ui): initialize Mod Menu interface by apter
+2. style(ui): design layout for toggle switches and sections
+3. feat(ui): add draggable menu overlay for mobile compatibility
+4. feat(ui): implement toggle states (on/off/yes) for all features
+5. refactor(ui): improve readability of feature labels in Mod Menu
+6. fix(ui): resolve toggle switches resetting to default on game restart
+7. feat(ui): add collapsible sections for "Menu" and "System"
+8. style(ui): add glassmorphism effect to Mod Menu background
+9. feat(config): implement auto-save for user toggle preferences
+10. fix(input): prevent touch passthrough to game when Mod Menu is open
+
+🎯 Menu Features (Aim Assist, Auto Win, Auto Play)
+
+11. feat(gameplay): implement Aim Assist toggle logic
+12. fix(gameplay): resolve Aim Assist snapping issue on break shots
+13. feat(gameplay): add Auto Win feature with safety trigger
+14. fix(gameplay): patch Auto Win failing when 8-ball is blocked
+15. feat(gameplay): implement Auto Play bot logic
+16. perf(gameplay): optimize Auto Play decision-making algorithm
+17. fix(ui): sync Auto Play toggle state with internal game status
+18. refactor(gameplay): separate Auto Play logic into independent module
+19. feat(gameplay): add hotkey to toggle Aim Assist on the fly
+20. fix(core): prevent game crash when toggling Auto Win mid-game
+
+⚙️ System Features (Visuals & Prediction)
+
+21. feat(system): implement Power Adjustment slider and logic
+22. fix(system): calibrate Power Adjustment values for accurate shots
+23. feat(system): add Table Overview top-down camera toggle
+24. fix(camera): resolve clipping issues with Table Overview on small screens
+25. feat(system): implement Ball Prediction trajectory lines
+26. fix(system): correct Ball Prediction collision math with table cushions
+27. feat(system): add Extended Guideline feature
+28. feat(system): add Guideline Extension toggle in UI
+29. fix(system): resolve rendering glitch for Extended Guideline
+30. refactor(system): group visual aids under a single system manager
+
+🛡️ Security & Protection (Anti-Ban & Protection)
+
+31. feat(security): implement Auto Anti-Ban mechanism
+32. feat(security): add Auto anti analysis banned bypass
+33. feat(security): implement Account Protection module
+34. fix(security): update signature spoofing for Auto Anti-Ban
+35. fix(security): resolve false positive triggering on Account Protection
+36. perf(security): optimize background thread for anti-analysis checks
+37. refactor(security): combine Anti-Ban and Anti-Analysis into a single manager
+38. fix(security): patch memory leak in Account Protection hook
+39. feat(security): add internal logging for Auto Anti-Ban triggers
+40. fix(security): ensure Account Protection doesn't interfere with game networking
+
+🔧 Core, Refactoring & Fixes
+
+41. fix(core): resolve initialization delay on game launch
+42. chore(deps): update modding framework dependencies
+43. docs: update README with Mod Menu features and usage
+44. refactor(core): implement singleton pattern for Mod Menu manager
+45. fix(core): resolve issue where multiple toggles cause frame drops
+46. style(core): format code to match project linting standards
+47. fix(security): ensure bypass features initialize before game connection
+48. feat(ui): add version number and author credit "apter" to menu footer
+49. fix(core): handle edge cases where game updates break menu injection
+50. chore(release): build and sign Mod Menu v1.0.0(ui): improve readability of feature labels in Mod Menu
